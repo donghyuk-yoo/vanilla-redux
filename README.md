@@ -11,4 +11,5 @@ Learning Vanilla-Redux and React-Redux
 21/02/03  Subscriptions, Recap, Refactor
 21/02/06  Vanilla ToDo
 21/02/08  Return new State
+21/02/09  Delete To Do
 ```
