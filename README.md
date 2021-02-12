@@ -13,4 +13,5 @@ Learning Vanilla-Redux and React-Redux
 21/02/08  Return new State
 21/02/09  Delete To Do
 21/02/10  React Redux To Do
+21/02/11  Connecting the Store
 ```
