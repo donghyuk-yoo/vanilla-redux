@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
+import { actionCreators } from "../store";
 // connect에서 받은 props(toDos)를 인자로
-function Home({toDos}) {
+function Home({toDos, addToDo }) {
   const [text,setText] = useState("");
 
   const onChange = (e) => {
@@ -9,6 +10,7 @@ function Home({toDos}) {
   }
   const onSubmit = (e) => {
     e.preventDefault();
+    addToDo(text);
     setText("");
   }
 
@@ -31,7 +33,13 @@ function mapStateToProps(state, ownProps) {
   return { toDos: state };
 
 }
+
+function mapDispatchToProps(dispatch) {
+  return {
+    addToDo: (text) => dispatch(actionCreators.addToDo(text))
+  };
+}
 // 함수(여기선 mapStateToProps)와 컴포넌트(여기선 HOME)를 이용해 react-redux의 connect를 이용
 // mapStateToProps 함수에 store 연결, redux state로부터 컴포넌트(여기선 HOME)에 prop으로 전달
-export default connect(mapStateToProps)(Home) ;
+export default connect(mapStateToProps, mapDispatchToProps)(Home) ;
 
