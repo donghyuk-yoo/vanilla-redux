@@ -16,4 +16,5 @@ Learning Vanilla-Redux and React-Redux
 21/02/11  Connecting the Store
 21/02/13  mapStateToProps
 21/02/15  mapDispatchToProps
+21/02/18  Deleting To Do
 ```
