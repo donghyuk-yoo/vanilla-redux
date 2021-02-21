@@ -3,6 +3,7 @@
 Learning Vanilla-Redux and React-Redux
 
 ### Progress
+
 ```
 21/01/12  initial setting
 21/01/12  vanilla Counter
@@ -17,4 +18,5 @@ Learning Vanilla-Redux and React-Redux
 21/02/13  mapStateToProps
 21/02/15  mapDispatchToProps
 21/02/18  Deleting To Do
+21/02/21  Detail Screen
 ```
