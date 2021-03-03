@@ -21,4 +21,5 @@ Learning Vanilla-Redux and React-Redux
 21/02/21  Detail Screen
 21/02/25  Redux Toolkit, createAction
 21/02/28  createReducer
+21/03/04  configureStore, createSlice
 ```
